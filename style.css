@@ -2346,6 +2346,46 @@ footer {
     }
 }
 
+/* for all blogs */
+.all-blogs-link {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.all-blogs-link .cta {
+  font-size: 1.1em;
+  padding: 10px 25px;
+  text-decoration: none;
+  background-color: #6f4e37; /* warm medium brown */
+  color: #e0f0ff; /* soft light blue text */
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.all-blogs-link .cta svg {
+  width: 15px;
+  height: 10px;
+  stroke: #e0f0ff; /* light blue arrow */
+  stroke-width: 2;
+  transition: stroke 0.3s ease;
+}
+
+.all-blogs-link .cta:hover {
+  background-color: var(--color-light-orange); /* your theme’s orange on hover */
+  color: #ffffff; /* pure white text on hover */
+  transform: translateY(-2px);
+}
+
+.all-blogs-link .cta:hover svg {
+  stroke: #ffffff; /* pure white arrow on hover */
+}
+
 
 /*  ADD THIS CSS  */
 .main-content { /* Or whatever the class of the parent container is */
