@@ -32,7 +32,8 @@ Currently, I am open to collaborations focused on practical cybersecurity improv
 
 - **Home**: Landing page with animation and contact link  
 - **About**: My background and journey in cybersecurity  
-- **Skills**: Tools and technologies I use regularly  
+- **Skills**: Tools and technologies I use regularly
+- **Certifications**: Security certifications, badges, and verified achievements
 - **Projects**: CTF write-ups, labs, and security demonstrations  
 - **Blogs**: Technical articles and cybersecurity walkthroughs  
 - **Settings**: Toggle sound and visual preferences  
