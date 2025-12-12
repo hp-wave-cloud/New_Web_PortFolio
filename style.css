@@ -957,6 +957,7 @@ noscript {
 
 .about-section,
 .projects-section-div,
+.certifications-section-div,
 .skills-section {
 	width: 60%;
 	display: flex;
@@ -973,6 +974,7 @@ noscript {
 	align-items: center;
 	gap: 10px
 }
+
 
 .dp img {
     width: 300px;
@@ -1723,10 +1725,11 @@ footer {
 	}
 
 	.projects-section-div,
-	.skills-section,
-	.text-content {
-		width: 80%
-	}
+    .certifications-section-div,
+    .skills-section,
+     .text-content {
+    width: 80%;
+}
 
 	.about-section {
 		width: 80%;
@@ -1931,7 +1934,8 @@ footer {
 		border-radius: 50%
 	}
 
-	.projects-section-div {
+	.projects-section-div,
+	.certifications-section-div {
 		width: 80%
 	}
 
@@ -2010,7 +2014,8 @@ footer {
 		transition-duration: 1s
 	}
 
-	.projects-section-div {
+	.projects-section-div,
+	.certifications-section-div{
 		width: 80%
 	}
 
@@ -2125,6 +2130,7 @@ footer {
 
 	.about-section,
 	.projects-section-div,
+	.certifications-section-div,
 	.skills-section {
 		width: 80%
 	}
@@ -2208,7 +2214,8 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
-  margin-bottom: 100px;
+    margin-bottom: 100px;
+	
 }
 
 .blog-section-div {
@@ -2346,6 +2353,46 @@ footer {
     }
 }
 
+/* for all blogs */
+.all-blogs-link {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.all-blogs-link .cta {
+  font-size: 1.1em;
+  padding: 10px 25px;
+  text-decoration: none;
+  background-color: #6f4e37; /* warm medium brown */
+  color: #e0f0ff; /* soft light blue text */
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.all-blogs-link .cta svg {
+  width: 15px;
+  height: 10px;
+  stroke: #e0f0ff; /* light blue arrow */
+  stroke-width: 2;
+  transition: stroke 0.3s ease;
+}
+
+.all-blogs-link .cta:hover {
+  background-color: var(--color-light-orange); /* your theme’s orange on hover */
+  color: #ffffff; /* pure white text on hover */
+  transform: translateY(-2px);
+}
+
+.all-blogs-link .cta:hover svg {
+  stroke: #ffffff; /* pure white arrow on hover */
+}
+
 
 /*  ADD THIS CSS  */
 .main-content { /* Or whatever the class of the parent container is */
@@ -2356,3 +2403,171 @@ footer {
 .next-section { /* Replace .next-section with the actual class */
     margin-top: 100px; /* Adjust this value as needed */
 }
+
+
+
+/* Certificates Section */
+
+.section-heading-certificate {
+	width: 95%;
+	display: flex;
+	align-items: center;
+	gap: 10px
+}
+
+
+.certifications-section-container {
+    padding: 150px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%
+}
+.certification-category{
+	padding-right: 20px;
+}
+/*
+.certification-category-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-light-orange);
+  text-align: center;
+  margin: 20px 0;
+ /* border-bottom: 2px solid var(--color-light-orange); 
+  padding-bottom: 20px;
+  padding-top: 35px;
+  font-family: 'Orbitron', sans-serif;
+}  */
+
+
+.certification-category-heading {
+	width: 100%;
+	padding-bottom: 20px;
+    padding-top: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-weight: 900;
+	height: 100px;
+	letter-spacing: 1px;
+	background-image: -webkit-gradient(linear, left top, right top, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+	background-image: -webkit-linear-gradient(left, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+	background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.certifications-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Increased min width from 300px to 320px */
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.subheading {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-light-orange);
+  margin: 10px 0;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Fira Code', monospace;
+}
+
+.certification-item {
+  background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
+  border-radius: 12px;
+  border: 1px solid var(--tech-stack-box-border-color);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.certification-item:hover,
+.certification-item:focus-within {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 140, 0, 0.3);
+}
+
+.certification-image {
+  width: 100%;
+  height: 180px; /* Increased from 160px to 180px */
+  overflow: hidden;
+  background-color: var(--color-light-orange);
+}
+
+.certification-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.certification-item:hover .certification-image img,
+.certification-item:focus-within .certification-image img {
+  transform: scale(1.03);
+}
+
+.certification-content {
+  padding: 18px; /* Increased from 15px to 18px */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* No gap to eliminate space */
+}
+
+.certification-title {
+  color: var(--color-white);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0; /* No margin to remove space */
+  font-family: 'Orbitron', sans-serif;
+  line-height: 1.2;
+}
+
+.certification-description {
+  color: var(--color-ddd-color);
+  /* font-size: 0.95rem; */
+  line-height: 1.4;
+  margin: 8px 0; /* Minimal margin for description */
+  font-family: 'Fira Code', monospace;
+}
+
+.certification-content .cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 18px;
+  background-color: transparent;
+  color: var(--color-light-blue);
+  text-decoration: none;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  font-family: 'Fira Code', monospace;
+}
+
+.certification-content .cta span {
+  color: var(--color-light-blue);
+  font-size: 0.85rem;
+}
+
+.certification-content .cta:hover,
+.certification-content .cta:focus {
+  background-color: var(--color-dark-blue);
+  border-color: var(--color-dark-blue);
+  color: var(--color-white);
+}
+
+.certification-content .cta:hover span,
+.certification-content .cta:focus span {
+  color: var(--color-white);
+}
+
