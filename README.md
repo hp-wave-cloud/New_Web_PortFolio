@@ -2,8 +2,6 @@
 
 Network Security Engineer | Cloud & Infrastructure Enthusiast
 
-![Homepage Preview](src/png/Preview-card-min.png)
-
 Welcome to my portfolio website! I'm a Network Security Engineer with 4+ years of experience in enterprise networking, cybersecurity, infrastructure management, and cloud technologies.
 
 🌐 Portfolio: https://hp-wave-cloud.github.io/Hariprasath-Ravichandran/
