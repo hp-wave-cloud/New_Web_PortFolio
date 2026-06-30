@@ -1,125 +1,110 @@
-# Hanzala Ghayas Abbasi – Cybersecurity Portfolio
+👋 Hi, I'm Hariprasath Ravichandran
+
+Network Security Engineer | Cloud & Infrastructure Enthusiast
 
 ![Homepage Preview](src/png/Preview-card-min.png)
 
-## About Me
+Welcome to my portfolio website! I'm a Network Security Engineer with 4+ years of experience in enterprise networking, cybersecurity, infrastructure management, and cloud technologies.
 
-I am Hanzala Ghayas Abbasi, a cybersecurity professional with a strong interest in digital rights and secure technology development. My work spans IT infrastructure, web application security, CTF event organization, and technical writing.
+🌐 Portfolio: https://hp-wave-cloud.github.io/Hariprasath-Ravichandran/
 
-I specialize in:
+🚀 About Me
 
-- Penetration testing  
-- Vulnerability research  
-- Secure software development  
+I specialize in designing, implementing, and managing secure network infrastructures for enterprise environments. My experience includes firewall administration, VPN technologies, network troubleshooting, cloud security, and infrastructure automation.
 
-I hold the **Practical Network Penetration Tester (PNPT)** certification, along with other credentials in network security, OSINT, privilege escalation, and ethical hacking. I actively participate in and contribute to the infosec community through CTFs, mentorship, and content creation.
+Currently, I work on securing and optimizing enterprise networks while continuously expanding my expertise in:
 
-Currently, I am open to collaborations focused on practical cybersecurity improvements and advocating for a safer digital environment.
+Network Security
+Cloud Computing
+Infrastructure Automation
+Cybersecurity
+🛠️ Technical Skills
 
----
+Network Security
 
-## Key Features
+Fortinet FortiGate
+Check Point Firewall
+Palo Alto Networks
+VPN Technologies
+IPS/IDS
+Network Access Control
+Networking
 
-- **Responsive design** for desktop and mobile  
-- **Interactive UI** with animations and parallax effects  
-- **Accessibility support** including ARIA labels and keyboard navigation  
-- **Modern aesthetic** with smooth transitions  
-- **SEO optimized** using meta tags and structured data  
+Routing & Switching
+TCP/IP
+DNS
+DHCP
+VLANs
+BGP
+OSPF
+Cloud & Infrastructure
 
----
+AWS
+Azure
+VMware
+Automation & Tools
 
-## Website Sections
+MS Power Automate
+Git
+GitHub
+Monitoring & Troubleshooting
 
-- **Home**: Landing page with animation and contact link  
-- **About**: My background and journey in cybersecurity  
-- **Skills**: Tools and technologies I use regularly
-- **Certifications**: Security certifications, badges, and verified achievements
-- **Projects**: CTF write-ups, labs, and security demonstrations  
-- **Blogs**: Technical articles and cybersecurity walkthroughs  
-- **Settings**: Toggle sound and visual preferences  
+Wireshark
+SolarWinds
+FortiMonitor
+Splunk
+💼 Professional Experience
 
+Network Security Engineer
 
+Working with enterprise-grade network security solutions, firewall management, VPN deployments, incident troubleshooting, and infrastructure support.
 
-## Technologies Used
+Key responsibilities include:
 
-### Frontend
+Firewall policy management
+Security incident investigation
+Network troubleshooting
+VPN administration
+Change implementation
+Security compliance
+📂 Featured Projects
 
-- HTML5, CSS3 (with custom animations and responsive layout)  
-- JavaScript for interactivity  
-- AOS (Animate On Scroll)  
-- Google Fonts  
+🌐 Personal Portfolio Website
 
-### Cybersecurity Tools
+A responsive portfolio website showcasing my professional experience, technical skills, certifications, and projects.
 
-- Nmap, Burp Suite, Metasploit, Wireshark  
-- Kali Linux, OWASP ZAP, SQLMap  
-- Python, Maltego, John the Ripper, Hashcat  
-- Nessus  
+🔒 Network Security Lab
 
-### Deployment
+Hands-on security testing and firewall implementation lab environment.
 
-- GitHub Pages  
-- SEO enhancements with JSON-LD structured data  
+💼 Internship In Hethical Hacking and Pen Testing
 
----
+Hands-on experience in cybersecurity, focusing on vulnerability assessment, reconnaissance, web application security testing, and penetration testing methodologies.
 
-## Installation
+☁️ Cloud Infrastructure Projects
 
-Clone the repository:
+Cloud deployment and automation projects using AWS and modern DevOps practices.
 
-```bash
-git clone https://github.com/hanzalaghayasabbasi/Portfolio.git
-cd Portfolio-main
-```
-## 💻 How to Use
+🎯 Current Goals
 
-To view the site:
+Advance expertise in Cloud Security
+Build real-world automation projects
+Contribute to open-source initiatives
+Expand cybersecurity knowledge
+📜 Certifications
 
-- Open `index.html` directly in your browser  
-**or**
+Fortinet Certifications
+Networking & Security Certifications
+Cloud Technology Certifications
+📫 Connect With Me
 
-- Run a local development server:
+LinkedIn: www.linkedin.com/in/hariprasathr
+GitHub: https://github.com/hp-wave-cloud
+Email: hariprasath.ofl@gmail.com
+⚡ Fun Fact
 
-```bash
-python3 -m http.server
+I enjoy building secure and scalable infrastructure solutions while constantly learning new technologies in networking, cloud, and cybersecurity.
 
-```
-## 📁 Project Structure
-```bash
-
-Portfolio-main/
-├── .github/                         # GitHub-specific settings and workflows
-├── src/                             # Assets used across the site
-│   ├── mp3/                         # Audio files
-│   ├── png/                         # PNG images (e.g., logos, previews)
-│   ├── svg/                         # SVG icons (e.g., social icons, skill logos)
-│   ├── webp/                        # Optimized image formats
-│   ├── pdf/                         # Resume and supporting documents
-├── CNAME                            # Custom domain configuration for GitHub Pages
-├── README.md                        # Documentation and usage instructions (this file)
-├── click.png                        # Custom cursor click effect
-├── cursorr.png                      # Custom default cursor
-├── index.html                       # Main homepage of the portfolio
-├── linkCard.html                    # Interactive cards page linking to blog posts, tools, and CTF write-ups
-├── main.js                          # Handles menu toggle, animations, and interactivity
-├── professional-image-parallax.js   # Implements parallax scrolling effect
-├── style.css                        # Custom styling for layout, animations, and theme
-
-
-```
-
-## 📸 Live Demo  
-👉 Visit the interactive website: [![Website](https://img.shields.io/website?url=https%3A%2F%2Fhanzalaghayasabbasi.com)](https://hanzalaghayasabbasi.com)
-
-
----
-
-## 📬 Contact
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hanzala.portfolio@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hanzalaghayasabbasi)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/hanzalaghayasabbasi)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@hanzalaghayasabbasi01)
-
+⭐ If you like my work, feel free to star my repositories and connect with me!
 
 
