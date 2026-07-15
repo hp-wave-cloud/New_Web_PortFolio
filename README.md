@@ -1,4 +1,4 @@
-👋 Hi, I'm Hariprasath Ravichandran
+👋 Hi, I'm Hariprasath Ravichandran.
 
 Network Security Engineer | Cloud & Infrastructure Enthusiast
 
