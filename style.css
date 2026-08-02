@@ -1,4 +1,3 @@
-Style · CSS
 #labelforsetting,
 #labelforvisualmode,
 #switchforvisualmode:checked+#labelforvisualmode {
@@ -704,6 +703,7 @@ noscript {
 	font-size: 2rem
 }
  
+#name div,
 #work div {
 	display: flex;
 	margin: 0 12px 0 0
