@@ -593,6 +593,7 @@ noscript {
 	font-size: 3.5rem;
 	font-weight: 600;
 	width: fit-content;
+	max-width: 100%;
 	display: flex;
 	align-items: flex-end
 }
@@ -600,7 +601,11 @@ noscript {
 #name,
 #work {
 	font-size: 8rem;
-	width: fit-content
+	width: fit-content;
+	max-width: 100%;
+	flex-wrap: wrap;
+	overflow-wrap: break-word;
+	word-break: break-word
 }
  
 #name,
