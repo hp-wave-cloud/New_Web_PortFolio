@@ -2576,3 +2576,6 @@ footer {
 .certification-content .cta:focus span {
   color: var(--color-white);
 }
+
+@media (max-width:768px){.navbar{width:95%;padding:0 12px}.landing-page-container,.info-dp-section,.project-box{flex-direction:column;height:auto}.text-content,.about-info,.dp,.info-div,.image-div,.about-section,.skills-section,.projects-section-div,.certifications-section-div{width:100%!important}.text-content{padding:20px}#name,#work{font-size:4rem;line-height:1.1;word-break:break-word}#hello-friend{font-size:2.4rem;flex-wrap:wrap}#info-para{width:100%}.contact-btn-div{flex-wrap:wrap;gap:16px}.dp img,.dp::before,.dp::after{width:220px;height:220px}.image-div{padding:20px 0 0}.image-div img{width:100%;height:auto;border-radius:20px}.project-boxes-div{padding:20px}.tech-stack-box{width:130px;height:130px}
+}
