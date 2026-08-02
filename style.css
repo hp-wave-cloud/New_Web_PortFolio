@@ -1,43 +1,45 @@
+
+Style · CSS
 #labelforsetting,
 #labelforvisualmode,
 #switchforvisualmode:checked+#labelforvisualmode {
 	background-repeat: no-repeat;
 	background-position: center
 }
-
+ 
 #labelforsetting,
 #labelforsound {
 	height: 40px;
 	background-size: 60%
 }
-
+ 
 #preloader,
 .invertapplied,
 .invertsettinglabel {
 	filter: invert(1)
 }
-
+ 
 #preloader,
 noscript {
 	width: 100%;
 	height: 100%
 }
-
+ 
 body,
 noscript {
 	background-color: var(--color-dark-mode)
 }
-
+ 
 .main,
 body {
 	overflow-x: hidden
 }
-
+ 
 #backtotopbutton article,
 :root {
 	font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif
 }
-
+ 
 .eye,
 .image-div,
 .logo,
@@ -47,18 +49,18 @@ body {
 footer {
 	overflow: hidden
 }
-
+ 
 .cta,
 .github-redirect,
 .navbar-tabs-ul a {
 	text-decoration: none
 }
-
+ 
 #GmailLogo,
 .sign svg path {
 	fill: white
 }
-
+ 
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -69,22 +71,22 @@ footer {
 	user-select: none;
 	-webkit-tap-highlight-color: transparent;
 }
-
+ 
 ::selection {
 	background-color: transparent
 }
-
+ 
 ::-moz-selection {
 	background: 0 0
 }
-
+ 
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased
 }
-
+ 
 :root {
 	cursor: default;
 	--color-white: #fff;
@@ -104,7 +106,7 @@ html {
 	--tech-stack-box-second-color: rgba(40, 34, 27, 0);
 	--tech-stack-box-border-color: #FFA500
 }
-
+ 
 #hello-friend,
 .footer-bottom article,
 .getintouch-heading article,
@@ -113,31 +115,31 @@ html {
 .two-words article {
 	font-family: fira code
 }
-
+ 
 ::-webkit-scrollbar {
 	width: 5px
 }
-
+ 
 ::-webkit-scrollbar-track {
 	background: #0a0a10
 }
-
+ 
 ::-webkit-scrollbar-thumb {
 	background-color: #FF8C00
 }
-
+ 
 .cursor-inner {
 	width: 8px;
 	height: 8px;
 	background-color: var(--color-light-blue)
 }
-
+ 
 .cursor-outer {
 	width: 35px;
 	height: 35px;
 	border: 2px solid #fff
 }
-
+ 
 .cursor-inner,
 .cursor-outer {
 	position: fixed;
@@ -148,26 +150,26 @@ html {
 	z-index: 9999;
 	pointer-events: none
 }
-
+ 
 .setting-container,
 .settingactivate {
 	transform-origin: left;
 	transition-duration: .5s
 }
-
+ 
 .cursor-inner.hover {
 	width: 25px;
 	height: 25px;
 	transition: .2s;
 	mix-blend-mode: difference
 }
-
+ 
 .cursor-outer.hover {
 	width: 50px;
 	height: 50px;
 	transition: .2s
 }
-
+ 
 .activeThistab:before,
 .navbar-tabs-ul li:hover:before {
 	background-color: var(--color-white);
@@ -175,7 +177,7 @@ html {
 	width: 10px;
 	left: -20px
 }
-
+ 
 .light-mode {
 	--color-dark-mode: #ece7e1;
 	--color-black: #fff;
@@ -189,7 +191,7 @@ html {
 	--tech-stack-box-second-color: #ece7e100;
 	--tech-stack-box-border-color: #dad5cf
 }
-
+ 
 .setting-container {
 	width: 60px;
 	height: 50px;
@@ -199,7 +201,7 @@ html {
 	gap: 30px;
 	padding: 20px 0
 }
-
+ 
 #labelforsetting {
 	width: 40px;
 	display: flex;
@@ -210,30 +212,30 @@ html {
 	transition-duration: .5s;
 	cursor: pointer
 }
-
+ 
 .soundtogglebuttoncontainer,
 .visualmodetogglebuttoncontainer {
 	align-items: center;
 	width: fit-content;
 	transition-duration: .3s
 }
-
+ 
 .settingactivate {
 	width: 200px
 }
-
+ 
 .visualmodetogglebuttoncontainer {
 	height: fit-content;
 	display: flex;
 	justify-content: center;
 	transform: translate(-50px) scale(0)
 }
-
+ 
 .visualmodeshow {
 	transition-duration: .3s;
 	transform: translate(0) scale(1)
 }
-
+ 
 #switchforsetting,
 #switchforsound,
 #switchforvisualmode,
@@ -241,12 +243,12 @@ html {
 .mobiletogglemenu {
 	display: none
 }
-
+ 
 #switchforsetting:checked+#labelforsetting {
 	transform: rotate(180deg);
 	transition-duration: .5s
 }
-
+ 
 #labelforvisualmode {
 	position: relative;
 	width: 40px;
@@ -256,21 +258,21 @@ html {
 	transition-duration: .5s;
 	cursor: pointer
 }
-
+ 
 #switchforvisualmode:checked+#labelforvisualmode {
 	transform: rotate(360deg);
 	transition-duration: .5s;
 	background-image: url(src/png/sun.png);
 	background-size: 60%
 }
-
+ 
 .soundtogglebuttoncontainer {
 	height: fit-content;
 	display: flex;
 	justify-content: center;
 	transform: translate(-130px) scale(0)
 }
-
+ 
 #labelforsound,
 #preloader {
 	display: flex;
@@ -278,19 +280,19 @@ html {
 	background-repeat: no-repeat;
 	background-position: center
 }
-
+ 
 .soundmodeshow {
 	transition-delay: .1s;
 	transition-duration: .5s;
 	display: inline-block;
 	transform: translate(0) scale(1)
 }
-
+ 
 .logo,
 .logo:hover {
 	transition-duration: 1s
 }
-
+ 
 #labelforsound {
 	position: relative;
 	justify-content: center;
@@ -299,7 +301,7 @@ html {
 	cursor: pointer;
 	transition-duration: .5s
 }
-
+ 
 #switchforsound:checked+#labelforsound {
 	transition-duration: .5s;
 	background-image: url(src/svg/Speaker_Icon.svg);
@@ -307,7 +309,7 @@ html {
 	background-repeat: no-repeat;
 	background-position: center
 }
-
+ 
 header {
 	width: 100%;
 	height: 115px;
@@ -315,7 +317,7 @@ header {
 	align-items: flex-end;
 	justify-content: center
 }
-
+ 
 #preloader {
 	background-color: #fff;
 	position: fixed;
@@ -325,33 +327,33 @@ header {
 	background-image: url(src/svg/Pulse-0.4s-200px.svg);
 	background-size: 10%
 }
-
+ 
 .navbar,
 noscript {
 	display: flex;
 	align-items: center;
 	position: fixed
 }
-
+ 
 #name,
 .getintouch-heading article {
 	background: -webkit-linear-gradient(135deg, var(--color-light-blue), var(--color-light-orange), var(--color-light-blue), var(--color-light-orange));
 	-webkit-text-fill-color: transparent
 }
-
+ 
 noscript {
 	justify-content: center;
 	font-size: 4rem;
 	color: #fff;
 	z-index: 999999
 }
-
+ 
 .fakenavbar {
 	height: 0;
 	width: 0%;
 	background-color: transparent
 }
-
+ 
 .navbar {
 	background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
 	backdrop-filter: blur(10px);
@@ -361,26 +363,28 @@ noscript {
 	justify-content: space-between;
 	z-index: 999;
 	border: 1px solid var(--color-navbarBorder-dark);
-	border-radius: 50px
+	border-radius: 50px;
+	left: 50%;
+	transform: translateX(-50%)
 }
-
+ 
 .navbar-tabs,
 .navbar-tabs-ul {
 	height: 100%;
 	align-items: center
 }
-
+ 
 .logo,
 .navbar-tabs-ul li {
 	position: relative;
 	display: flex
 }
-
+ 
 .navbar-tabs {
 	display: flex;
 	width: 80%
 }
-
+ 
 .navbar-tabs-ul {
 	width: 100%;
 	display: flex;
@@ -389,7 +393,7 @@ noscript {
 	gap: 80px;
 	color: var(--color-white)
 }
-
+ 
 .navbar-tabs-ul li {
 	width: fit-content;
 	height: 30px;
@@ -398,19 +402,19 @@ noscript {
 	justify-content: center;
 	font-size: 1.5rem
 }
-
+ 
 .navbar-tabs-ul li:hover:before {
 	content: "";
 	position: absolute;
 	border-radius: 5px;
 	z-index: -1
 }
-
+ 
 .navbar-tabs-ul a {
 	color: var(--color-white);
 	font-weight: 100
 }
-
+ 
 .logo {
 	width: 10%;
 	height: 100%;
@@ -422,14 +426,14 @@ noscript {
 	-ms-user-select: none;
 	user-select: none
 }
-
+ 
 .face,
 .logo-top {
 	width: 100%;
 	align-items: center;
 	display: flex
 }
-
+ 
 .hey {
 	color: #fff;
 	position: absolute;
@@ -442,7 +446,7 @@ noscript {
 	bottom: 80px;
 	opacity: 0
 }
-
+ 
 #hello-friend,
 #work,
 .about-info p,
@@ -450,47 +454,47 @@ noscript {
 .language-speak article {
 	color: var(--color-white)
 }
-
+ 
 .blob,
 .eye,
 .pupil {
 	border-radius: 50%
 }
-
+ 
 .popup {
 	animation: 3s linear pop-up
 }
-
+ 
 @keyframes pop-up {
 	from {
 		bottom: -50px;
 		left: 50px;
 		opacity: 1
 	}
-
+ 
 	to {
 		opacity: 0
 	}
 }
-
+ 
 .logo-top {
 	height: 100%;
 	justify-content: center;
 	transform-origin: bottom;
 	position: relative
 }
-
+ 
 .activeThistab:before,
 .face {
 	content: "";
 	position: absolute
 }
-
+ 
 .logo-top img {
 	height: 100%;
 	z-index: 2
 }
-
+ 
 .face {
 	height: 74%;
 	bottom: 0;
@@ -499,7 +503,7 @@ noscript {
 	z-index: 1;
 	padding-left: 1px
 }
-
+ 
 .eye {
 	width: 8px;
 	height: 8px;
@@ -508,43 +512,43 @@ noscript {
 	justify-content: center;
 	background-color: #fff
 }
-
+ 
 .left-eye {
 	box-shadow: -1px -2px 2px rgba(0, 0, 0, .589) inset
 }
-
+ 
 .right-eye {
 	box-shadow: 1px 3px 2px rgba(0, 0, 0, .589) inset
 }
-
+ 
 .pupil {
 	width: 3.5px;
 	height: 3.5px;
 	background: #241010
 }
-
+ 
 .logo:hover {
 	transform: translateY(200px)
 }
-
+ 
 .activeThistab:before {
 	border-radius: 50%;
 	z-index: -1
 }
-
+ 
 .dp::after,
 .dp::before {
 	height: 300px;
 	z-index: -2;
 	content: ""
 }
-
+ 
 .main {
 	width: 100%;
 	height: fit-content;
 	position: relative
 }
-
+ 
 .blob {
 	position: absolute;
 	right: -10%;
@@ -556,17 +560,17 @@ noscript {
 	opacity: .3;
 	animation: 1s linear infinite alternate-reverse breath
 }
-
+ 
 @keyframes breath {
 	from {
 		opacity: .3
 	}
-
+ 
 	to {
 		opacity: .5
 	}
 }
-
+ 
 .landing-page-container {
 	width: 100%;
 	height: calc(100vh - 115px);
@@ -575,7 +579,7 @@ noscript {
 	align-items: center;
 	justify-content: center
 }
-
+ 
 .text-content {
 	display: flex;
 	flex-direction: column;
@@ -584,7 +588,7 @@ noscript {
 	align-items: flex-start;
 	justify-content: center
 }
-
+ 
 #hello-friend {
 	font-size: 3.5rem;
 	font-weight: 600;
@@ -592,78 +596,78 @@ noscript {
 	display: flex;
 	align-items: flex-end
 }
-
+ 
 #name,
 #work {
 	font-size: 8rem;
 	width: fit-content
 }
-
+ 
 #name,
 #work,
 .letsTalkBtn-text {
 	display: flex;
 	font-weight: 700
 }
-
+ 
 @-webkit-keyframes vibrate-1 {
-
+ 
 	0%,
 	100% {
 		-webkit-transform: translate(0);
 		transform: translate(0)
 	}
-
+ 
 	20% {
 		-webkit-transform: translate(-2px, 2px);
 		transform: translate(-2px, 2px)
 	}
-
+ 
 	40% {
 		-webkit-transform: translate(-2px, -2px);
 		transform: translate(-2px, -2px)
 	}
-
+ 
 	60% {
 		-webkit-transform: translate(2px, 2px);
 		transform: translate(2px, 2px)
 	}
-
+ 
 	80% {
 		-webkit-transform: translate(2px, -2px);
 		transform: translate(2px, -2px)
 	}
 }
-
+ 
 @keyframes vibrate-1 {
-
+ 
 	0%,
 	100% {
 		-webkit-transform: translate(0);
 		transform: translate(0)
 	}
-
+ 
 	20% {
 		-webkit-transform: translate(-2px, 2px);
 		transform: translate(-2px, 2px)
 	}
-
+ 
 	40% {
 		-webkit-transform: translate(-2px, -2px);
 		transform: translate(-2px, -2px)
 	}
-
+ 
 	60% {
 		-webkit-transform: translate(2px, 2px);
 		transform: translate(2px, 2px)
 	}
-
+ 
 	80% {
 		-webkit-transform: translate(2px, -2px);
 		transform: translate(2px, -2px)
 	}
 }
-
+ 
 #name {
 	align-items: flex-start;
 	background: linear-gradient(-45deg, var(--color-light-blue), var(--color-light-orange), var(--color-light-blue), var(--color-light-orange));
@@ -673,35 +677,35 @@ noscript {
 	-webkit-animation: 3s infinite gradient;
 	animation: 3s infinite gradient
 }
-
+ 
 @keyframes gradient {
-
+ 
 	0%,
 	100% {
 		background-position: 0 50%
 	}
-
+ 
 	50% {
 		background-position: 100% 50%
 	}
 }
-
+ 
 #work {
 	align-items: flex-start;
 	flex-wrap: wrap
 }
-
+ 
 #info-para,
 .about-info p {
 	font-weight: 400;
 	font-size: 2rem
 }
-
+ 
 #work div {
 	display: flex;
 	margin: 0 12px 0 0
 }
-
+ 
 .jello:hover {
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -710,89 +714,89 @@ noscript {
 	-webkit-animation: .9s both jello-vertical;
 	animation: .9s both jello-vertical
 }
-
+ 
 #backtotopbutton,
 .dp::after,
 .dp::before,
 .letsTalkBtn {
 	background-color: transparent
 }
-
+ 
 @-webkit-keyframes jello-vertical {
-
+ 
 	0%,
 	100% {
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1)
 	}
-
+ 
 	30% {
 		-webkit-transform: scale3d(.75, 1.25, 1);
 		transform: scale3d(.75, 1.25, 1)
 	}
-
+ 
 	40% {
 		-webkit-transform: scale3d(1.25, .75, 1);
 		transform: scale3d(1.25, .75, 1)
 	}
-
+ 
 	50% {
 		-webkit-transform: scale3d(.85, 1.15, 1);
 		transform: scale3d(.85, 1.15, 1)
 	}
-
+ 
 	65% {
 		-webkit-transform: scale3d(1.05, .95, 1);
 		transform: scale3d(1.05, .95, 1)
 	}
-
+ 
 	75% {
 		-webkit-transform: scale3d(.95, 1.05, 1);
 		transform: scale3d(.95, 1.05, 1)
 	}
 }
-
+ 
 @keyframes jello-vertical {
-
+ 
 	0%,
 	100% {
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1)
 	}
-
+ 
 	30% {
 		-webkit-transform: scale3d(.75, 1.25, 1);
 		transform: scale3d(.75, 1.25, 1)
 	}
-
+ 
 	40% {
 		-webkit-transform: scale3d(1.25, .75, 1);
 		transform: scale3d(1.25, .75, 1)
 	}
-
+ 
 	50% {
 		-webkit-transform: scale3d(.85, 1.15, 1);
 		transform: scale3d(.85, 1.15, 1)
 	}
-
+ 
 	65% {
 		-webkit-transform: scale3d(1.05, .95, 1);
 		transform: scale3d(1.05, .95, 1)
 	}
-
+ 
 	75% {
 		-webkit-transform: scale3d(.95, 1.05, 1);
 		transform: scale3d(.95, 1.05, 1)
 	}
 }
-
+ 
 #info-para {
 	width: 75%;
 	padding-top: 30px;
 	color: var(--color-ddd-color);
 	line-height: 20px
 }
-
+ 
 .contact-btn-div {
 	width: 100%;
 	padding-top: 50px;
@@ -801,7 +805,7 @@ noscript {
 	align-items: center;
 	justify-content: flex-start
 }
-
+ 
 .letsTalkBtn {
 	position: relative;
 	border: none;
@@ -811,7 +815,7 @@ noscript {
 	cursor: pointer;
 	transition: .3s
 }
-
+ 
 .letsTalkBtn-text {
 	width: 100%;
 	height: 100%;
@@ -824,20 +828,20 @@ noscript {
 	justify-content: center;
 	letter-spacing: .8px
 }
-
+ 
 .cta:hover span,
 .text,
 .tooltip {
 	color: #fff
 }
-
+ 
 .resume-btn,
 .sign {
 	align-items: center;
 	transition-duration: .3s;
 	display: flex
 }
-
+ 
 .letsTalkBtn-BG {
 	position: absolute;
 	width: 100%;
@@ -850,23 +854,23 @@ noscript {
 	pointer-events: none;
 	transition: .3s
 }
-
+ 
 .letsTalkBtn:hover {
 	transform: translateY(-2px) translateX(-2px)
 }
-
+ 
 .letsTalkBtn:hover .letsTalkBtn-BG {
 	transform: translateY(2px) translateX(2px)
 }
-
+ 
 .letsTalkBtn:active {
 	transform: translateY(7px) translateX(7px)
 }
-
+ 
 .letsTalkBtn:active .letsTalkBtn-BG {
 	transform: translateY(-7px) translateX(-7px)
 }
-
+ 
 .resume-btn {
 	margin-top: 25px;
 	justify-content: flex-start;
@@ -879,7 +883,7 @@ noscript {
 	background: linear-gradient(82.3deg, #FFA500 10.8%, #FF8C00 94.3%);
 	position: relative
 }
-
+ 
 .projects-heading-article,
 .projectsHeadingP,
 .section-heading-article,
@@ -889,22 +893,22 @@ noscript {
 	background-image: -webkit-gradient(linear, left top, right top, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
 	background-image: -webkit-linear-gradient(left, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink))
 }
-
+ 
 .dp::after,
 .dp::before,
 .text {
 	position: absolute
 }
-
+ 
 .sign {
 	width: 100%;
 	justify-content: center
 }
-
+ 
 .sign svg {
 	width: 17px
 }
-
+ 
 .text {
 	right: 0;
 	width: 0%;
@@ -913,26 +917,26 @@ noscript {
 	font-weight: 600;
 	transition-duration: .3s
 }
-
+ 
 .resume-btn:hover {
 	width: 130px;
 	border-radius: 40px;
 	transition-duration: .3s
 }
-
+ 
 .resume-btn:hover .sign {
 	width: 30%;
 	transition-duration: .3s;
 	padding-left: 20px
 }
-
+ 
 .resume-btn:hover .text {
 	opacity: 1;
 	width: 70%;
 	transition-duration: .3s;
 	padding-right: 10px
 }
-
+ 
 .dp,
 .dp::after,
 .dp::before,
@@ -940,11 +944,11 @@ noscript {
 .dp:hover::before {
 	transition-duration: .5s
 }
-
+ 
 .resume-btn:active {
 	transform: translate(2px, 2px)
 }
-
+ 
 .about-section-container {
 	width: 100%;
 	height: fit-content;
@@ -954,7 +958,7 @@ noscript {
 	flex-direction: column;
 	padding-top: 200px
 }
-
+ 
 .about-section,
 .projects-section-div,
 .certifications-section-div,
@@ -965,7 +969,7 @@ noscript {
 	align-items: center;
 	justify-content: center
 }
-
+ 
 .projects-heading,
 .section-heading,
 .skills-heading {
@@ -974,8 +978,8 @@ noscript {
 	align-items: center;
 	gap: 10px
 }
-
-
+ 
+ 
 .dp img {
     width: 300px;
     position: relative;
@@ -985,9 +989,9 @@ noscript {
     /* Subtle initial shadow */
     box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.2);
 }
-
-
-
+ 
+ 
+ 
 .projects-heading-article,
 .section-heading-article,
 .skills-heading-article {
@@ -999,7 +1003,7 @@ noscript {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent
 }
-
+ 
 .projectsHeadingP,
 .sectionHeadingP,
 .skillsHeadingP {
@@ -1007,23 +1011,23 @@ noscript {
 	height: 1px;
 	background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink))
 }
-
+ 
 .info-dp-section {
 	width: 100%;
 	display: flex;
 	margin-top: 30px
 }
-
+ 
 .about-info {
 	width: 60%;
 	display: flex;
 	flex-direction: column
 }
-
+ 
 .about-info p {
 	line-height: 25px
 }
-
+ 
 .dp {
     width: 40%;
     display: flex;
@@ -1032,7 +1036,7 @@ noscript {
     position: relative;
     perspective: 1000px;
 }
-
+ 
 /* Professional gradient borders */
 .dp::before,
 .dp::after {
@@ -1047,18 +1051,18 @@ noscript {
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 2px;
 }
-
-
+ 
+ 
 .dp::before {
     transform: translate(-10px, -10px);
     border: 1px solid rgba(255, 140, 0, 0.2);
 }
-
+ 
 .dp::after {
     transform: translate(10px, 10px);
     border: 1px solid rgba(255, 140, 0, 0.1);
 }
-
+ 
 /* Subtle ambient animation */
 @keyframes subtleFloat {
     0%, 100% {
@@ -1068,7 +1072,7 @@ noscript {
         transform: translateY(-5px) translateX(2px);
     }
 }
-
+ 
 /* Professional hover effects */
 .dp:hover img {
     transform: translateZ(20px);
@@ -1076,22 +1080,22 @@ noscript {
         0 20px 40px -5px rgba(0, 0, 0, 0.3),
         0 0 20px rgba(255, 140, 0, 0.1);
 }
-
+ 
 .dp:hover::before {
     transform: translate(-15px, -15px);
     border-color: rgba(255, 140, 0, 0.3);
 }
-
+ 
 .dp:hover::after {
     transform: translate(15px, 15px);
     border-color: rgba(255, 140, 0, 0.2);
 }
-
+ 
 /* Add professional entrance animation */
 .dp {
     animation: fadeInProfile 1s ease-out forwards;
 }
-
+ 
 @keyframes fadeInProfile {
     from {
         opacity: 0;
@@ -1102,18 +1106,18 @@ noscript {
         transform: translateY(0);
     }
 }
-
+ 
 /* Add subtle parallax effect on mouse move */
 .dp.parallax {
     transform-style: preserve-3d;
     transform: perspective(1000px);
 }
-
+ 
 .dp.parallax img {
     transform-style: preserve-3d;
     transition: transform 0.1s ease-out;
 }
-
+ 
 .skills-section-container {
 	padding-top: 150px;
 	width: 100%;
@@ -1121,29 +1125,29 @@ noscript {
 	align-items: center;
 	justify-content: center;
   }
-
+ 
 .language-speak,
 .tech-stack-wrapper {
 	width: 100%;
 	display: flex;
 	align-items: center
 }
-
+ 
 .language-speak {
 	height: 50px;
 	justify-content: center
 }
-
+ 
 .language-speak article {
 	font-size: 2rem;
 	font-weight: 600
 }
-
+ 
 .frontend-dev-section {
 	width: 100%;
 	margin-top: 50px
 }
-
+ 
 .frontend-dev-heading {
 	width: 100%;
 	text-align: center;
@@ -1161,12 +1165,12 @@ noscript {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent
 }
-
+ 
 .project-box,
 .tech-stack-box {
 	background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color))
 }
-
+ 
 .tech-stack-wrapper {
 	display: flex;
 	justify-content: center;
@@ -1176,13 +1180,13 @@ noscript {
 	list-style: none;
 	padding: 0;
   }
-
+ 
 .tech-stack-box,
 .tooltip {
 	align-items: center;
 	display: flex
 }
-
+ 
 .tech-stack-box {
 	width: 160px;
 	height: 160px;
@@ -1198,7 +1202,7 @@ noscript {
 	border: 2px solid #FFB000;
 	box-shadow: 0 0 10px rgba(255, 176, 0, 0.3);
   }
-
+ 
   .tech-stack-box::before {
 	content: '';
 	position: absolute;
@@ -1217,24 +1221,24 @@ noscript {
 	mask-composite: exclude;
 	pointer-events: none;
   }
-
+ 
 .tech-stack-box:hover::before {
 	left: 100%;
   }
-
+ 
   .tech-stack-box:hover {
 	transform: translateY(-5px);
 	box-shadow: 0 0 20px rgba(255, 176, 0, 0.5);
 	border-color: #FFC000;
   }
-
+ 
   .tech-stack-box img {
 	width: 65%;
 	height: auto;
 	transition: all 0.3s ease;
 	filter: drop-shadow(0 0 5px rgba(255, 176, 0, 0.3));
   }
-
+ 
   .tech-stack-box:hover img {
 	transform: scale(1.1);
 	filter: drop-shadow(0 0 8px rgba(255, 176, 0, 0.5));
@@ -1277,7 +1281,7 @@ noscript {
 	border-right: 6px solid transparent;
 	border-top: 6px solid #1a1a1a;
   }
-
+ 
   .tech-stack-box:hover .tooltip {
 	opacity: 1;
 	visibility: visible;
@@ -1289,7 +1293,7 @@ noscript {
 	color: #FFA500;
 	text-shadow: 0 0 15px rgba(255, 165, 0, 0.3);
   }
-
+ 
 .cta,
 .cta span,
 .cta svg,
@@ -1297,7 +1301,7 @@ noscript {
 footer {
 	position: relative
 }
-
+ 
 .projects-section-container {
 	padding: 150px 0;
 	display: flex;
@@ -1305,7 +1309,7 @@ footer {
 	justify-content: center;
 	width: 100%
 }
-
+ 
 .project-boxes-div {
 	width: 100%;
 	height: fit-content;
@@ -1316,12 +1320,12 @@ footer {
 	gap: 50px;
 	padding: 50px
 }
-
+ 
 .cta:hover:before,
 .project-box-wrapper {
 	width: 100%
 }
-
+ 
 .project-box {
 	width: 100%;
 	height: 400px;
@@ -1332,7 +1336,7 @@ footer {
 	border-radius: 30px;
 	border: 1px solid var(--tech-stack-box-border-color)
 }
-
+ 
 .info-div {
 	width: 50%;
 	height: 100%;
@@ -1343,40 +1347,40 @@ footer {
 	gap: 20px;
 	padding: 0 40px
 }
-
+ 
 .faviconforProject {
 	width: 30px;
 	border-radius: 50%
 }
-
+ 
 .faviconforProjectAquaregia {
 	width: 20px
 }
-
+ 
 .image-div {
 	width: 50%;
 	height: 100%;
 	padding-top: 70px;
 	padding-left: 10px
 }
-
+ 
 .image-div img {
 	height: 100%;
 	border-top-left-radius: 30px
 }
-
+ 
 .ProjectHeading {
 	color: var(--color-white);
 	font-size: 3.4rem;
 	font-weight: 700
 }
-
+ 
 .ProjectDescription {
 	color: gray;
 	font-size: 1.7rem;
 	font-weight: 400
 }
-
+ 
 .project-buttons {
 	width: 100%;
 	display: flex;
@@ -1384,22 +1388,22 @@ footer {
 	justify-content: flex-start;
 	gap: 20px
 }
-
+ 
 .github-redirect {
 	width: 50px
 }
-
+ 
 .github-redirect img {
 	width: 45px;
 	height: auto;
 	transition: .3s;
 	filter: brightness(2)
 }
-
+ 
 .github-redirect:hover img {
 	filter: brightness(4)
 }
-
+ 
 .cta {
 	padding: 12px 18px;
 	transition: .2s;
@@ -1410,7 +1414,7 @@ footer {
 	align-items: center;
 	justify-content: flex-start
 }
-
+ 
 .cta::before {
 	content: "";
 	position: absolute;
@@ -1422,14 +1426,14 @@ footer {
 	height: 45px;
 	transition: .3s
 }
-
+ 
 .cta span {
 	font-size: 1.8rem;
 	font-weight: 600;
 	letter-spacing: .05em;
 	color: var(--color-light-blue)
 }
-
+ 
 .cta svg {
 	top: 0;
 	margin-left: 10px;
@@ -1441,16 +1445,16 @@ footer {
 	transform: translateX(-5px);
 	transition: .3s
 }
-
+ 
 .cta:hover svg {
 	stroke: white;
 	transform: translateX(0)
 }
-
+ 
 .cta:active {
 	transform: scale(.95)
 }
-
+ 
 #backtotopbutton {
 	position: fixed;
 	right: 10px;
@@ -1466,7 +1470,7 @@ footer {
 	transition: .4s;
 	display: none
 }
-
+ 
 #backtotopbutton article {
 	font-size: 1.5rem;
 	color: var(--color-white);
@@ -1474,18 +1478,18 @@ footer {
 	writing-mode: vertical-rl;
 	mix-blend-mode: difference
 }
-
+ 
 #backtotopbutton:hover {
 	transform: translate(0, -20px);
 	text-decoration: line-through var(--color-white)
 }
-
+ 
 footer {
 	width: 100%;
 	height: fit-content;
 	border-top: 1px solid var(--tech-stack-box-border-color)
 }
-
+ 
 .footer-background {
 	width: 100%;
 	height: 100vh;
@@ -1495,7 +1499,7 @@ footer {
 	justify-content: center;
 	z-index: 1
 }
-
+ 
 .footer-blob {
 	width: 100%;
 	height: 200px;
@@ -1504,7 +1508,7 @@ footer {
 	filter: blur(100px);
 	opacity: .7
 }
-
+ 
 .footer-foreground {
 	position: absolute;
 	top: 0;
@@ -1515,7 +1519,7 @@ footer {
 	justify-content: center;
 	backdrop-filter: blur(10px)
 }
-
+ 
 .footercontainer {
 	width: 100%;
 	display: flex;
@@ -1523,7 +1527,7 @@ footer {
 	align-items: center;
 	justify-content: flex-end
 }
-
+ 
 .two-words {
 	color: #b3b3b3;
 	width: 100%;
@@ -1532,18 +1536,18 @@ footer {
 	justify-content: center;
 	height: 100px
 }
-
+ 
 .getintouch-heading,
 .logos {
 	height: 80px;
 	width: 100%;
 	display: flex
 }
-
+ 
 .two-words article {
 	font-size: 3rem
 }
-
+ 
 .social-media-container {
 	display: flex;
 	flex-direction: column;
@@ -1551,7 +1555,7 @@ footer {
 	justify-content: center;
 	width: 100%
 }
-
+ 
 .social-media-container a {
 	width: 60px;
 	height: 60px;
@@ -1566,12 +1570,12 @@ footer {
 	box-shadow: 0 0 0 #fff inset;
 	transition-duration: .3s
 }
-
+ 
 .getintouch-heading {
 	align-items: center;
 	justify-content: center
 }
-
+ 
 .getintouch-heading article {
 	font-size: 2rem;
 	background: linear-gradient(-45deg, #FFD700, #FF8C00, #FFD700, #FF8C00);
@@ -1579,34 +1583,34 @@ footer {
     -webkit-background-clip: text;
 	font-weight: 700
 }
-
+ 
 .fa-copyright,
 .footer-bottom article {
 	font-size: 1.5rem;
 	color: #b0b0b0
 }
-
+ 
 .logos {
 	gap: 30px;
 	justify-content: center;
 	align-items: center
 }
-
+ 
 .SocialHandle {
 	fill: white;
 	width: 60%
 }
-
+ 
 #GmailLogo {
 	height: 70%
 }
-
+ 
 .social-media-container a:hover {
 	box-shadow: 0 0 50px 100px #FF8C00  inset;
 	transition-duration: 1s;
 	border: none
 }
-
+ 
 .social-media-container a::before {
 	position: absolute;
 	content: "";
@@ -1619,12 +1623,12 @@ footer {
 	transition-duration: .3s;
 	z-index: -1
 }
-
+ 
 .social-media-container a:hover::before {
 	transform: scale(1);
 	transition-duration: .3s
 }
-
+ 
 .footer-avatar-container {
 	width: 220px;
 	margin-top: 20px;
@@ -1633,12 +1637,12 @@ footer {
 	align-items: flex-end;
 	justify-content: center
 }
-
+ 
 .footer-avatar-img {
 	width: 100%;
 	z-index: 2
 }
-
+ 
 .footer-avatar-face {
 	position: absolute;
 	width: 100%;
@@ -1650,7 +1654,7 @@ footer {
 	gap: 18px;
 	padding-left: 5px
 }
-
+ 
 .footer-avatar-eye {
 	width: 50px;
 	height: 50px;
@@ -1660,7 +1664,7 @@ footer {
 	align-items: center;
 	justify-content: center
 }
-
+ 
 .footer-pupil {
 	width: 20px;
 	height: 20px;
@@ -1669,17 +1673,17 @@ footer {
 	border: 5px solid #413333;
 	filter: blur(.6px)
 }
-
+ 
 .footer-right-eye {
 	box-shadow: 15px 15px 5px rgba(0, 0, 0, .233) inset, 10px 10px 5px rgba(41, 33, 33, .644) inset;
 	position: relative
 }
-
+ 
 .footer-left-eye {
 	box-shadow: -10px -15px 5px rgba(0, 0, 0, .349) inset;
 	position: relative
 }
-
+ 
 .footer-avatar-eye::before {
 	position: absolute;
 	content: "";
@@ -1692,7 +1696,7 @@ footer {
 	left: 15px;
 	transform: rotate(45deg)
 }
-
+ 
 .footer-bottom {
 	background-color: #0b0b0b;
 	width: 100%;
@@ -1702,35 +1706,35 @@ footer {
 	height: 80px;
 	z-index: 3
 }
-
+ 
 .tonechange {
 	color: #000
 }
-
+ 
 @media screen and (max-width:1920px) {
 	html {
 		font-size: 60%
 	}
 }
-
+ 
 @media screen and (max-width:1400px) {
 	html {
 		font-size: 60%
 	}
 }
-
+ 
 @media screen and (max-width:1200px) {
 	html {
 		font-size: 60%
 	}
-
+ 
 	.projects-section-div,
     .certifications-section-div,
     .skills-section,
      .text-content {
     width: 80%;
 }
-
+ 
 	.about-section {
 		width: 80%;
 		display: flex;
@@ -1738,51 +1742,51 @@ footer {
 		align-items: center;
 		justify-content: center
 	}
-
+ 
 	.logo:hover {
 		transform: translateY(200px);
 		transition-duration: 1s
 	}
 }
-
+ 
 @media screen and (max-width:1150px) {
 	html {
 		font-size: 60%
 	}
 }
-
+ 
 @media screen and (max-width:998px) {
-
+ 
 	#hamburger-button,
 	.hamburger {
 		background-color: transparent
 	}
-
+ 
 	.mobile-navbar-tabs-ul a,
 	.mobiletogglemenu {
 		text-decoration: none
 	}
-
+ 
 	.activeThismobiletab,
 	.mobile-navbar-tabs-ul a {
 		color: var(--color-white)
 	}
-
+ 
 	html {
 		font-size: 55%
 	}
-
+ 
 	.blob,
 	.cursor-inner,
 	.cursor-outer,
 	.navbar-tabs-ul {
 		display: none
 	}
-
+ 
 	.stopscrolling {
 		overflow: hidden
 	}
-
+ 
 	.hamburger {
 		position: fixed;
 		top: 0;
@@ -1793,7 +1797,7 @@ footer {
 		justify-content: center;
 		z-index: 9998
 	}
-
+ 
 	.activeThismobiletab:before,
 	.burger-bar,
 	.hamburger-animation1,
@@ -1801,7 +1805,7 @@ footer {
 	.hamburger-animation3 {
 		background-color: var(--color-white)
 	}
-
+ 
 	.hamburgerbase {
 		width: 80%;
 		height: 80px;
@@ -1810,7 +1814,7 @@ footer {
 		justify-content: flex-end;
 		padding: 20px
 	}
-
+ 
 	#hamburger-button {
 		font-size: 3rem;
 		font-weight: 800;
@@ -1822,7 +1826,7 @@ footer {
 		align-items: center;
 		justify-content: space-between
 	}
-
+ 
 	#burger-bar1,
 	#burger-bar2,
 	#burger-bar3 {
@@ -1830,32 +1834,32 @@ footer {
 		border-radius: 0;
 		transition-duration: .3s
 	}
-
+ 
 	#burger-bar1,
 	#burger-bar3 {
 		width: 60%
 	}
-
+ 
 	#burger-bar2 {
 		width: 100%
 	}
-
+ 
 	.hamburger-animation1 {
 		transform: rotate(45deg) scaleX(1.7);
 		transition-duration: .3s;
 		transform-origin: left
 	}
-
+ 
 	.hamburger-animation2 {
 		transform: scaleX(0)
 	}
-
+ 
 	.hamburger-animation3 {
 		transform: rotateZ(-45deg) scaleX(1.7);
 		transform-origin: left;
 		transition-duration: .3s
 	}
-
+ 
 	.mobiletogglemenu {
 		background-color: transparent;
 		z-index: 9990;
@@ -1871,12 +1875,12 @@ footer {
 		transform: translate(1000px);
 		transition-duration: 1s
 	}
-
+ 
 	.show-toggle-menu {
 		transform: translate(0);
 		transition-duration: .6s
 	}
-
+ 
 	.mobile-navbar-tabs-ul {
 		background-color: var(--color-dark-mode);
 		width: 100%;
@@ -1888,7 +1892,7 @@ footer {
 		gap: 70px;
 		box-shadow: 0 0 30px rgba(0, 0, 0, .176)
 	}
-
+ 
 	.mobile-navbar-tabs-li {
 		text-align: center;
 		display: flex;
@@ -1902,29 +1906,29 @@ footer {
 		height: 30px;
 		width: fit-content
 	}
-
+ 
 	.about-info,
 	.dp,
 	.info-dp-section {
 		width: 100%;
 		display: flex
 	}
-
+ 
 	.info-dp-section {
 		flex-direction: column;
 		margin-top: 30px;
 		gap: 30px
 	}
-
+ 
 	.about-info {
 		flex-direction: column
 	}
-
+ 
 	.dp {
 		align-items: center;
 		justify-content: center
 	}
-
+ 
 	.activeThismobiletab:before {
 		content: "";
 		position: absolute;
@@ -1933,53 +1937,53 @@ footer {
 		left: -20px;
 		border-radius: 50%
 	}
-
+ 
 	.projects-section-div,
 	.certifications-section-div {
 		width: 80%
 	}
-
+ 
 	.project-box {
 		flex-direction: column;
 		height: 800px
 	}
-
+ 
 	.image-div,
 	.info-div {
 		width: 100%;
 		height: 50%
 	}
-
+ 
 	.image-div {
 		padding: 0 0 0 80px
 	}
 }
-
+ 
 @media screen and (max-width:768px) {
 	html {
 		font-size: 50%
 	}
-
+ 
 	.text-content {
 		padding-left: 0;
 		width: 80%
 	}
-
+ 
 	#hello-friend {
 		height: 100px;
 		font-size: 3.5rem
 	}
-
+ 
 	#name,
 	#work {
 		font-size: 5.5rem
 	}
-
+ 
 	#info-para,
 	.language-name {
 		width: 100%
 	}
-
+ 
 	.contact-btn-div {
 		height: 140px;
 		display: flex;
@@ -1988,41 +1992,41 @@ footer {
 		justify-content: flex-start;
 		gap: 20px
 	}
-
+ 
 	.setting-container {
 		margin-left: 0
 	}
-
+ 
 	.dp {
         width: 100%;
         padding: 20px;
     }
-
+ 
 	.dp img,
     .dp::before,
     .dp::after {
         width: 250px;
         height: auto;
     }
-
+ 
 	.logo {
 		width: 18%
 	}
-
+ 
 	.logo:hover {
 		transform: translateY(200px);
 		transition-duration: 1s
 	}
-
+ 
 	.projects-section-div,
 	.certifications-section-div{
 		width: 80%
 	}
-
+ 
 	.project-boxes-div {
 		padding: 40px 0
 	}
-
+ 
 	.tech-stack-box {
 		width: 140px;
 		height: 140px;
@@ -2036,83 +2040,83 @@ footer {
 		font-size: 1.2rem;
 		padding: 6px 12px;
 	  }
-
+ 
 }
-
+ 
 @media screen and (max-width:500px) {
 	html {
 		font-size: 45%
 	}
-
+ 
 	.hamburgerbase,
 	.navbar {
 		height: 70px
 	}
-
+ 
 	#hamburger {
 		margin-right: 20px;
 		height: 115px;
 		align-items: flex-end
 	}
-
+ 
 	#hello-friend,
 	.two-words article {
 		font-size: 2.5rem
 	}
-
+ 
 	.hey {
 		left: 70px
 	}
-
+ 
 	.logo:hover {
 		transform: translateY(200px);
 		transition-duration: 1s
 	}
-
+ 
 	.landing-page-container {
 		height: 85vh
 	}
-
+ 
 	.text-content {
 		justify-content: flex-start
 	}
-
+ 
 	.project-box {
 		height: 550px
 	}
-
+ 
 	.info-div {
 		height: 60%
 	}
-
+ 
 	.image-div {
 		height: 40%;
 		padding-left: 50px
 	}
-
+ 
 	.image-div img {
 		border-top-left-radius: 10px
 	}
-
+ 
 	.tech-stack-wrapper {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 20px
 	}
-
+ 
 	.tech-stack-box {
 		width: 100%;
 		height: calc(76vw/2)
 	}
 }
-
+ 
 @media screen and (max-width: 480px) {
     .dp img,
     .dp::before,
     .dp::after {
         width: 200px;
     }
-
+ 
 	.tech-stack-box {
 		width: 120px;
 		height: 120px;
@@ -2122,92 +2126,92 @@ footer {
 		gap: 15px;
 	  }
 }
-
+ 
 @media screen and (max-width:430px) {
 	html {
 		font-size: 45%
 	}
-
+ 
 	.about-section,
 	.projects-section-div,
 	.certifications-section-div,
 	.skills-section {
 		width: 80%
 	}
-
+ 
 	.info-div {
 		padding: 0 30px
 	}
-
+ 
 	.two-words article {
 		font-size: 2.2rem
 	}
 }
-
+ 
 @media screen and (max-width:375px) {
 	html {
 		font-size: 42%
 	}
-
+ 
 	.dp img {
 		width: 200px
 	}
-
+ 
 	.two-words {
 		height: 50px
 	}
-
+ 
 	.two-words article {
 		font-size: 2rem
 	}
-
+ 
 	.footer-bottom article {
 		font-size: 1.3rem
 	}
-
+ 
 	.logos {
 		gap: 20px
 	}
 }
-
+ 
 @media screen and (max-width:300px) {
 	html {
 		font-size: 42%
 	}
-
+ 
 	.language-name article {
 		text-align: center
 	}
-
+ 
 	.two-words {
 		align-items: flex-end;
 		height: 50px
 	}
-
+ 
 	.two-words article {
 		font-size: 1.5rem
 	}
-
+ 
 	.footer-bottom article {
 		font-size: 1rem
 	}
-
+ 
 	.social-media-container a {
 		width: 50px;
 		height: 50px
 	}
-
+ 
 	.logos {
 		gap: 20px
 	}
 }
-
-
-
-
+ 
+ 
+ 
+ 
 /* Blog Section */
 /* Blog Section */
-
+ 
 .blog-section-container {
     padding: 150px 0;
     display: flex;
@@ -2217,30 +2221,30 @@ footer {
     margin-bottom: 100px;
 	
 }
-
+ 
 .blog-section-div {
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+ 
 }
-
+ 
 .blog-posts-wrapper {
     width: 100%;
     padding-inline: 50px; /* Adjust padding as needed */
 	margin-top: 30px;
 }
-
+ 
 .blog-posts-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 55px; /* Space between blog posts */
 	padding-top: 40px;
-
+ 
 }
-
+ 
 .blog-post {
     background-color: var(--color-dark-mode); /* Your dark background */
     border-radius: 30px;
@@ -2249,12 +2253,12 @@ footer {
     transition: transform 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+ 
 .blog-post:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 20px rgba(255, 176, 0, 0.5);
 }
-
+ 
 .blog-post-image {
     width: 100%;
     height: 200px;
@@ -2262,7 +2266,7 @@ footer {
    
     background-color: var(--color-light-orange); /* Or a color that works well with your images */
 }
-
+ 
 .blog-post-image img {
     width: 100%;
     height: 100%;
@@ -2271,25 +2275,25 @@ footer {
     display: block;
     transition: transform 0.3s ease;
 }
-
+ 
 .blog-post:hover img {
     transform: scale(1.05);
 }
-
+ 
 .blog-post-content {
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-
+ 
 .blog-post-title {
     color: var(--color-white); /* Your white text color */
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 0;
 }
-
+ 
 .blog-post-excerpt {
     color: var(--color-ddd-color); /* A lighter text color, perhaps */
     font-size: 1.6rem;
@@ -2299,7 +2303,7 @@ footer {
 	-webkit-line-clamp: 3; /* Show only 3 lines */
     -webkit-box-orient: vertical;
 }
-
+ 
 .blog-post .cta {
     margin-top: auto;
     display: inline-flex;
@@ -2313,11 +2317,11 @@ footer {
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+ 
 .blog-post .cta span {
     color: var(--color-light-blue); /* Use one of your accent colors */
 }
-
+ 
 .blog-post .cta svg {
     width: 15px;
     height: 10px;
@@ -2327,19 +2331,19 @@ footer {
     stroke-width: 2;
     transition: stroke 0.3s ease;
 }
-
+ 
 .blog-post .cta:hover {
     background-color: var(--color-light-orange); /* Use your orange */
 }
-
+ 
 .blog-post .cta:hover span {
     color: var(--color-white); /* White text on hover */
 }
-
+ 
 .blog-post .cta:hover svg {
     stroke: var(--color-white); /* White SVG on hover */
 }
-
+ 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .blog-posts-container {
@@ -2347,12 +2351,12 @@ footer {
         gap: 30px;
         padding: 20px; /* Add padding back on smaller screens */
     }
-
+ 
     .blog-post-image {
         height: 150px;
     }
 }
-
+ 
 /* for all blogs */
 .all-blogs-link {
   grid-column: 1 / -1;
@@ -2360,7 +2364,7 @@ footer {
   justify-content: center;
   margin-top: 40px;
 }
-
+ 
 .all-blogs-link .cta {
   font-size: 1.1em;
   padding: 10px 25px;
@@ -2374,7 +2378,7 @@ footer {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: background-color 0.3s ease, transform 0.2s ease, color 0.2s ease;
 }
-
+ 
 .all-blogs-link .cta svg {
   width: 15px;
   height: 10px;
@@ -2382,40 +2386,40 @@ footer {
   stroke-width: 2;
   transition: stroke 0.3s ease;
 }
-
+ 
 .all-blogs-link .cta:hover {
   background-color: var(--color-light-orange); /* your theme’s orange on hover */
   color: #ffffff; /* pure white text on hover */
   transform: translateY(-2px);
 }
-
+ 
 .all-blogs-link .cta:hover svg {
   stroke: #ffffff; /* pure white arrow on hover */
 }
-
-
+ 
+ 
 /*  ADD THIS CSS  */
 .main-content { /* Or whatever the class of the parent container is */
     padding-bottom: 100px; /* Adjust this value as needed */
 }
-
+ 
 /* OR, if the element below is a direct sibling and not nested: */
 .next-section { /* Replace .next-section with the actual class */
     margin-top: 100px; /* Adjust this value as needed */
 }
-
-
-
+ 
+ 
+ 
 /* Certificates Section */
-
+ 
 .section-heading-certificate {
 	width: 95%;
 	display: flex;
 	align-items: center;
 	gap: 10px
 }
-
-
+ 
+ 
 .certifications-section-container {
     padding: 150px 0;
 	display: flex;
@@ -2438,8 +2442,8 @@ footer {
   padding-top: 35px;
   font-family: 'Orbitron', sans-serif;
 }  */
-
-
+ 
+ 
 .certification-category-heading {
 	width: 100%;
 	padding-bottom: 20px;
@@ -2459,7 +2463,7 @@ footer {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent
 }
-
+ 
 .certifications-grid {
   width: 100%;
   display: grid;
@@ -2467,13 +2471,13 @@ footer {
   gap: 20px;
   padding: 15px 0;
 }
-
+ 
 @media (max-width: 700px) {
   .certifications-grid {
     grid-template-columns: 1fr;
   }
 }
-
+ 
 .subheading {
   width: 100%;
   font-size: 1.8rem;
@@ -2484,7 +2488,7 @@ footer {
   padding-left: 10px;
   font-family: 'Fira Code', monospace;
 }
-
+ 
 .certification-item {
   background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
   border-radius: 12px;
@@ -2495,20 +2499,20 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
+ 
 .certification-item:hover,
 .certification-item:focus-within {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(255, 140, 0, 0.3);
 }
-
+ 
 .certification-image {
   width: 100%;
   height: 180px; /* Increased from 160px to 180px */
   overflow: hidden;
   background-color: var(--color-light-orange);
 }
-
+ 
 .certification-image img {
   width: 100%;
   height: 100%;
@@ -2517,19 +2521,19 @@ footer {
   display: block;
   transition: transform 0.3s ease;
 }
-
+ 
 .certification-item:hover .certification-image img,
 .certification-item:focus-within .certification-image img {
   transform: scale(1.03);
 }
-
+ 
 .certification-content {
   padding: 18px; /* Increased from 15px to 18px */
   display: flex;
   flex-direction: column;
   gap: 20px; /* No gap to eliminate space */
 }
-
+ 
 .certification-title {
   color: var(--color-white);
   font-size: 1.5rem;
@@ -2538,7 +2542,7 @@ footer {
   font-family: 'Orbitron', sans-serif;
   line-height: 1.2;
 }
-
+ 
 .certification-description {
   color: var(--color-ddd-color);
   /* font-size: 0.95rem; */
@@ -2546,7 +2550,7 @@ footer {
   margin: 8px 0; /* Minimal margin for description */
   font-family: 'Fira Code', monospace;
 }
-
+ 
 .certification-content .cta {
   display: inline-flex;
   align-items: center;
@@ -2559,19 +2563,19 @@ footer {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   font-family: 'Fira Code', monospace;
 }
-
+ 
 .certification-content .cta span {
   color: var(--color-light-blue);
   font-size: 0.85rem;
 }
-
+ 
 .certification-content .cta:hover,
 .certification-content .cta:focus {
   background-color: var(--color-dark-blue);
   border-color: var(--color-dark-blue);
   color: var(--color-white);
 }
-
+ 
 .certification-content .cta:hover span,
 .certification-content .cta:focus span {
   color: var(--color-white);
@@ -2579,7 +2583,7 @@ footer {
 /* ===== Mobile Alignment Improvements ===== */
 @media screen and (max-width:768px){
   body{overflow-x:hidden;}
-  .navbar{width:92%;left:50%;transform:translateX(-50%);}
+  .navbar{width:92%;}
   section,
   .landing-page-container,
   .about-section,
@@ -2599,11 +2603,11 @@ footer {
    ABOUT ME - MOBILE FIX
    =========================== */
 @media only screen and (max-width: 768px) {
-
+ 
     .about-section-container{
         padding-top: 80px;
     }
-
+ 
     .about-section{
         width: 100% !important;
         max-width: 100%;
@@ -2611,7 +2615,7 @@ footer {
         margin: 0 auto;
         box-sizing: border-box;
     }
-
+ 
     .info-dp-section{
         display: flex;
         flex-direction: column-reverse;
@@ -2619,11 +2623,11 @@ footer {
         gap: 35px;
         margin-top: 35px;
     }
-
+ 
     .about-info{
         width: 100%;
     }
-
+ 
     .about-info p{
         font-size: 1.8rem;
         line-height: 1.9;
@@ -2631,26 +2635,26 @@ footer {
         margin: 0;
         padding: 0;
     }
-
+ 
     .dp{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+ 
     .dp img{
         width: 240px;
         max-width: 100%;
         height: auto;
     }
-
+ 
     .section-heading{
         width: 100%;
     }
-
+ 
     .sectionHeadingP{
         flex: 1;
     }
-
+ 
 }
